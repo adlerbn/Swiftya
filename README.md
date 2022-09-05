@@ -1,0 +1,2 @@
+# Swiftya
+Swift Package Manager
