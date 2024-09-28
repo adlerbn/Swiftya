@@ -1,4 +1,4 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.9
 
 import PackageDescription
 
@@ -9,19 +9,19 @@ let package = Package(
   ],
   products: [
     .library(
-      name: "Presentation",
-      targets: ["Presentation"]
+      name: "Swiftya",
+      targets: ["Swiftya"]
     ),
   ],
   dependencies: [],
   targets: [
     .target(
-      name: "Presentation",
+      name: "Swiftya",
       dependencies: []
     ),
     .testTarget(
-      name: "PresentationTests",
-      dependencies: ["Presentation"]
+      name: "SwiftyaTests",
+      dependencies: ["Swiftya"]
     ),
   ]
 )
